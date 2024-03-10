@@ -9,7 +9,7 @@ In the folder VBA-challenge, open the excel document:
 ---> Copy of Multiple_year_stock_data
 The data is presented such that the first 7 coloums are the Ticker, the Dates it fluctuated, the Opening value, the High, the Low, and the Closing values of the stock. The final coloumn is the total Stock volume on the given date. Here's an example:
 
-<ticker>   <date>	 <open> 	<high>	<low>	<close>	    <vol>
+ticker      date	   open 	high	low	    close	    vol
 AAB	       20180102   24.44	    24.56	24.44	24.47	    261879
 
 By pressing the provided "Stock_Analysis" button in the 2018 worksheet, the code should provide a breakdown of every Ticker's performance at the end of the year as well as, which Tickers had the Greatest % increase in value, Greatest % decrease value, and Greatest total volume at the end of the year - across all worksheets.
